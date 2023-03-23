@@ -6,3 +6,28 @@
     box-sizing: border-box;
     font-family: 'Arimo', sans-serif;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    margin-top: 1.2em;
+    padding: 0.5em;
+}
+
+
+.btn input {
+    position: relative;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+}
