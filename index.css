@@ -31,3 +31,19 @@ body {
     appearance: none;
     -webkit-appearance: none;
 }
+
+
+.btn input::before,
+.btn input::after {
+    content: '';
+    position: absolute;
+
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+}
+
+.btn input:checked::before {
+    background: #ca4444;
+    transform: translate(-50%, -50%);
+}
